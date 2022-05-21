@@ -51,9 +51,9 @@
 main {
     padding-top: 130px;
 }
-    /* h1 about */
+    /* h1 all */
 
-.h1__about {
+.h1 {
     color: #22cf7e;
 
     margin: 0px 50px 0px 130px;
@@ -170,16 +170,10 @@ main {
     padding: 30px;
 }
 
-    /* H1 products */
-
-.h1__products {
-    color: #22cf7e;
-
-    margin: 0px 50px 0px 130px;
-    padding: 0px 15px 10px 10px;
-
-    border-bottom: 3px solid #22cf7e;
-    display: inline;
+.hide {
+    border-bottom: 2px solid #22cf7e;
+    
+    margin: 50px 50px 50px 50px;
 }
 
     /* Container 2 */
@@ -240,4 +234,149 @@ main {
 .container__2__product__name {
     color: #22cf7e;
     font-size: 15px;
+}
+
+    /* Container 3 */
+
+.container__3 {
+    text-align: center;
+    background-color: gray;
+    margin: 0 auto;
+    position: relative;
+    height: 987px;
+}
+.container__3__kinlo {
+    display: inline-block;
+
+    position: relative;
+    width: 450px;
+    height: 450px;
+
+    background: url("https://www.southendsmiles.com/wp-content/uploads/2020/09/AdobeStock_174544330.jpeg") center  no-repeat;
+    background-size: contain;
+    background-color: #ffffff;
+}
+
+.container__3__kinlo__title {
+    position: relative;
+    top: -335px;
+
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #000000;
+}
+.container__3__kinlo__title:before {
+    content: ' "To be one ';
+    color: #ffffff;
+}
+
+.container__3__kinlo__title:after {
+    content: ' of the best."';
+    color: #ffffff;
+}
+
+.container__3__kinlo__text {
+    position: relative;
+    top: -315px;
+    
+    color: #ffffff;
+}
+
+.container__3__kinlo__logo {
+    position: relative;
+    top: -300px;
+
+    color: #22cf7e;
+    letter-spacing: 20px;
+    font-size: 30px;
+}
+.container__3__h2 {
+    position: relative;
+    top: -110px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    letter-spacing: 1px;
+    color: #22cf7e;
+    background-color: #ffffff;
+}
+
+.container__3__jangoo {
+    display: inline-block;
+
+    position: relative;
+    top: -110px;
+    width: 450px;
+    height: 450px;
+
+    background: url("https://www.southendsmiles.com/wp-content/uploads/2020/09/AdobeStock_174544330.jpeg") center  no-repeat;
+    background-size: contain;
+    background-color: #ffffff;
+}
+
+.container__3__jangoo__title {
+    position: relative;
+    top: -435px;
+
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #000000;
+}
+.container__3__jangoo__title:before {
+    content: ' "To be one ';
+    color: #ffffff;
+}
+
+.container__3__jangoo__title:after {
+    content: ' of the best."';
+    color: #ffffff;
+}
+
+.container__3__jangoo__text {
+    position: relative;
+    top: -425px;
+    
+    color: #ffffff;
+}
+
+.container__3__jangoo__logo {
+    position: relative;
+    top: -400px;
+
+    color: #22cf7e;
+    letter-spacing: 20px;
+    font-size: 30px;
+}
+
+
+    /* Container 4 */
+
+.container__4 {
+    margin: 40px 150px;
+    text-align: center;
+}
+
+.container__4__studio {
+    display: inline-block;
+
+    background: url('/src/Frontend/images/leaves.png');
+    width: 400px;
+    height: 250px;
+
+    margin: 0px 25px;
+    
+}
+
+.container__4__studio__title {
+    padding: 40px 40px 25px;
+
+    color: #ffffff;
+}
+
+.container__4__studio__text {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+
+    padding: 0px 40px 25px;
 }
