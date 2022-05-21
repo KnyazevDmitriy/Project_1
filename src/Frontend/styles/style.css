@@ -358,13 +358,13 @@ main {
 
 .container__4__studio {
     display: inline-block;
+    border-radius: 10px;
 
     background: url('/src/Frontend/images/leaves.png');
-    width: 400px;
-    height: 250px;
+    width: 450px;
+    height: 270px;
 
     margin: 0px 25px;
-    
 }
 
 .container__4__studio__title {
@@ -378,5 +378,28 @@ main {
     font-weight: bold;
     font-size: 20px;
 
-    padding: 0px 40px 25px;
+    padding: 0px 40px 0px;
+}
+
+.container__4__studio__small {
+    color:#ffffff ;
+    font-size: 10px;
+    padding: 20px 30px;
+}
+
+.container__4__studio__btn_1 {
+    border: none;
+    border-radius: 10%;
+    background-color: #22cf7e;
+    color: #ffffff;
+
+    padding: 10px 15px;
+}
+
+.container__4__studio__btn_2 {
+    border: none;
+    background: none;
+    color: #ffffff;
+
+    padding: 10px 15px;
 }
